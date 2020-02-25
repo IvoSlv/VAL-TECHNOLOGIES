@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link href="css/prettyPhoto.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet" />	
+   
+  </head>
+  <body>
+	<header>		
+		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+			<div class="navigation">
+				<div class="container">					
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse.collapse">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<div class="navbar-brand">
+								<a href="index.html"><img src="images/logo.jpg" class="img-logo"/></a>
+						</div>
+					</div>
+					
+					<div class="navbar-collapse collapse">							
+						<div class="menu">
+							<ul class="nav nav-tabs" role="tablist">
+								<li role="presentation"><a href="index.html">Home</a></li>
+								<li role="presentation"><a href="about.html">About Us</a></li>
+								<li role="presentation"><a href="services.html">Services</a></li>								
+								<li role="presentation"><a href="contact.html" class="active">Contact</a></li>						
+							</ul>
+						</div>
+					</div>						
+				</div>
+			</div>	
+		</nav>		
+	</header>
+	
+	<div id="breadcrumb">
+		<div class="container">	
+			<div class="breadcrumb">							
+				<li><a href="index.html">Home</a></li>
+				<li>Contact</li>			
+			</div>		
+		</div>	
+	</div>
+	
+	
+
+	<div class="aboutus">
+			<div class="container">
+					<div class="col-md-7 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+							<div class="map">
+									<iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=bulgaria%20sofia%20alabin&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+									<a href="https://www.emojilib.com"></a>
+								</div>
+						</div>
+				<div class="col-md-5 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+					<div class="skill1">
+						<h3>Contact Us</h3>
+						<p>Tel : <b>+359 882 055 596</b>
+							<br> E-mail : <b><a href="mailto:office@val-technologies.eu" target="_self" data-content="office@val-technologies.eu" data-type="mail">office@val-technologies.eu</a></b> 
+						</p>
+						
+						<p>Address : 120 Suha reka, entr.B<br>1517 Sofia, Bulgaria</p>
+					</div>
+				</div>
+			</div>
+	</div>
+	
+	<section id="contact-page">
+        <div class="container">
+            <div class="center">        
+                
+            </div> 
+            <div class="row contact-wrap"> 
+                <div class="status alert alert-success" style="display: none"></div>
+                <form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="sendemail.php">
+                    <div class="col-sm-5 col-sm-offset-1">
+                        <div class="form-group">
+                            <label>Name *</label>
+                            <input type="text" name="name" class="form-control" required="required">
+                        </div>
+                        <div class="form-group">
+                            <label>Email *</label>
+                            <input type="email" name="email" class="form-control" required="required">
+                        </div>
+                        <div class="form-group">
+                            <label>Phone</label>
+                            <input type="number" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label>Company Name</label>
+                            <input type="text" class="form-control">
+                        </div>                        
+                    </div>
+                    <div class="col-sm-5">
+                        <div class="form-group">
+                            <label>Subject *</label>
+                            <input type="text" name="subject" class="form-control" required="required">
+                        </div>
+                        <div class="form-group">
+                            <label>Message *</label>
+                            <textarea name="message" id="message" required="required" class="form-control" rows="8"></textarea>
+                        </div>                        
+                        <div class="form-group">
+                            <button type="submit" name="submit" class="btn btn-primary btn-lg" required="required">Send Message</button>
+                        </div>
+                    </div>
+                </form> 
+            </div><!--/.row-->
+        </div><!--/.container-->
+    </section><!--/#contact-page-->
+	
+	<footer>
+			<div class="footer">
+				<div class="container">
+					<div class="col-md-4 col-md-offset-4">
+						<div class="copyright">
+								&copy; All Rights Reserved by VAL TECHNOLOGIES.
+						</div>
+					</div>						
+				</div>
+				<div class="pull-right">
+					<a href="#home" class="scrollup"><i class="fa fa-angle-up fa-3x"></i></a>
+				</div>
+			</div>
+		</footer>
+	
+    <!-- jQuery ( Bootstrap's JavaScript plugins) -->
+	<script src="js/jquery-2.1.1.min.js"></script>	
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>  
+	<script src="js/wow.min.js"></script>
+	<script src="js/functions.js"></script>
+	
+  </body>
+</html>
